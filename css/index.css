@@ -1,80 +1,61 @@
 body {
-  color: #33333a;
-  font-family: 'Roboto', sans-serif;
-  font-size: 1.75em;
+    color: #33333a;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.75em;
 }
 
 h2 {
-  font-family: 'Roboto', sans-serif;
-  font-weight:600;
+    font-family: 'Roboto', sans-serif;
+    font-weight:600;
 }
 
 .profile-pic {
-  opacity: 1;
-  display: block;
-  width: 50%;
-  height: auto;
-  transition: .5s ease;
-  backface-visibility: hidden;
-  margin-left: auto;
-  margin-right: auto;
+    opacity: 1;
+    display: block;
+    width: 50%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .middle {
-  transition: .5s ease;
-  opacity: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%)
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
 }
 
 .container:hover .profile-pic {
-  opacity: 0.8;
+    opacity: 0.8;
 }
 
 .container:hover .middle {
-  opacity: 1;
+    opacity: 1;
 }
 
 .text {
-  background-color: #4CAF50;
-  color: white;
-  font-size: 16px;
-  padding: 16px 32px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 14px;
+    padding: 16px 32px;
 }
 
 footer {
-    /*
-    background: #000000;
-    color: #D3D3D3;
-    margin-top: 20px;
-    padding-top: 1rem;
-    padding-bottom :1rem;
-    position: fixed;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    */
-
-  background:#222224;
-  color:#a8a8aa;
-  margin-top:20px;
-  padding-top:10px;
-  padding-bottom:0px;
-  font-size: 1.0em;
-
+    background:#222224;
+    color:#a8a8aa;
+    margin-top:20px;
+    padding-top:10px;
+    padding-bottom:0px;
+    font-size: 1.0em;
 }
 
 .horizontal-divider {
-  margin: 20px 0;
-}
-
-.tooltip {
-    position: relative;
-    display: inline-block;
-    border-bottom: 1px dotted black;
+    margin: 20px 0;
 }
 
 .socicon-twitter {
@@ -105,23 +86,15 @@ footer {
     border-radius: 10%;
 }
 
-.tooltip .tooltiptext {
-    visibility: hidden;
-    width: 120px;
-    background-color: black;
-    color: #fff;
+ul {
+    margin-top: 20px;
     text-align: center;
-    border-radius: 6px;
-    padding: 5px 0;
-    
-    /* Position the tooltip */
-    position: absolute;
-    z-index: 1;
-    bottom: 100%;
-    left: 50%;
-    margin-left: -60px;
+    margin-bottom: 20px;
 }
 
-.tooltip:hover .tooltiptext {
-    visibility: visible;
+li {
+    text-align: center;
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
 }
